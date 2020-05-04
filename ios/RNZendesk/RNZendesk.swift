@@ -41,6 +41,7 @@ class RNZendesk: RCTEventEmitter {
         
         Zendesk.initialize(appId: appId, clientId: clientId, zendeskUrl: zendeskUrl)
         Support.initialize(withZendesk: Zendesk.instance)
+        print("dedededede09099090")
     }
     
     // MARK: - Indentification
